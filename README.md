@@ -1,4 +1,4 @@
-# Native Lazy Loading Test Example
+## Native Lazy Loading Test Example
 
 | Before  | After |
 | ------------- | ------------- |
