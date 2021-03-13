@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native Lazy Loading Test Example</title>
+</head>
+<style>
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 10px;
+    }
+    
+    img {
+        max-height: 600px;
+    }
+    
+    .container {
+        width: clamp(20rem, 90vw, 120rem);
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        display: flex;
+        grid-gap: 15rem;
+        flex-direction: column;
+    }
+    
+    .col {
+        border-radius: 25px;
+        display: grid;
+        place-items: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="col">
+            <img src="assets/img/1.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/2.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/3.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/4.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/5.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/21.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/22.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/23.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/24.jpg" loading="lazy">
+        </div>
+        <div class="col">
+            <img src="assets/img/25.jpg" loading="lazy">
+        </div>
+    </div>
+</body>
+
+</html>
